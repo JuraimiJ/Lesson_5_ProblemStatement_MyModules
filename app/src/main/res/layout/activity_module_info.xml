@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModuleInfo">
+
+    <TextView
+        android:id="@+id/textViewCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod_code"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewModName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod_name"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewAcadYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/year"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewSem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/semester"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewModCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod_cred"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/venue"
+        android:textSize="20sp"/>
+
+</LinearLayout>
